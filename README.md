@@ -1,13 +1,5 @@
 # Backtracking Scrabble AI
 
-Compile the game by typing: make scrabble
-
-To run the game: firstcreate dictionary.txt, bag.txt, board.txt init.txt(optional)
-
-and include them in config.txt
-
-run command ./scrabble config.txt
-
 Explanation:
 
 ScrabbleAI combines the classic game of scrabble with intelligent decision-making computer players. The game is configured to play on a standard 15 x 15 scrabble board with a standard English Dictionary.  Future developments are in progress to support a variety of board configurations and world languages.  AI decision are made using recursive backtracking and a Trie of all legal words (for efficiency purposes).  After each valid player move, the updated board and score are printed to the window, and the next human player is prompted to play.  If no human players are used, AI's will continuously move until the game is concluded. On each turn, players can either pass, exchange, or place.
@@ -53,21 +45,21 @@ Structure for Moves in Command Line:
                 (places word dog down, takes 'd','?', and 'g' from player hand and uses the ? as 'o')
 To Run Game:
 
-(1) download ScrabbleAI folder from github
-(2) in command line, navigate to downloaded folder
+	(1) download ScrabbleAI folder from github
+	(2) in command line, navigate to downloaded folder
     ** please max command line window to entire screen (important for game visualization tool used) **
-(3) run the following commands:
+	(3) run the following commands:
         - make or make scrabble
         - ./scrabble config.txt
-(4) see below for initialization of game
+	(4) see below for initialization of game
 Initializing the Game:
 
-# of Players:
--------------
+	# of Players:
+	-------------
 	(1) When prompted for # of players, make sure to enter only an integer.  This is very important.
     
-AI Choices:
------------
+	AI Choices:
+	-----------
 	When prompted with enter a player name, you have three options.
 		(1) human player --> enter any string for a name that does not start with "CPUS" or "CPUL" 
         
@@ -84,6 +76,6 @@ AI Choices:
 			- if no valid move is found, the player will default to a Pass for that turn
 Notes on Files:
 
-.h and .cpp files are stored in src folder
-after compiling, .o files are created stored in created BIN folder
+	.h and .cpp files are stored in src folder
+	after compiling, .o files are created stored in created BIN folder
 Enjoy the Game, and good luck against the AIs
