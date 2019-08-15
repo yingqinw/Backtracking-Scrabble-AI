@@ -1,7 +1,7 @@
 
 all: scrabble
 
-scrabble: BIN/Move.o BIN/Board.o BIN/Dictionary.o BIN/Player.o BIN/Bag.o BIN/Game.o BIN/ConsolePrinter.o BIN/Trie.o BIN/AI.o src/main.cpp
+scrabble: BIN/Move.o BIN/Board.o BIN/Dictionary.o BIN/Player.o BIN/Bag.o BIN/AI.o BIN/ConsolePrinter.o BIN/Trie.o BIN/AI.o src/main.cpp
 	g++ -g -Wall -std=c++11 $^ -o $@
 
 
