@@ -78,4 +78,4 @@ Notes on Files:
 	after compiling, .o files are created stored in created BIN folder
 Enjoy the Game, and good luck against the AIs
 
-![GitHub Logo](https://ibb.co/16Xs6tV)
+![GitHub Logo](https://i.ibb.co/QdH8d3B/img-0747-orig.png)
