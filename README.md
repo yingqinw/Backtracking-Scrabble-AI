@@ -4,10 +4,8 @@ ScrabbleAI combines the classic game of scrabble with intelligent decision-makin
 
 End Game Conditions:
 
-``
     (1) Consecitve choices to pass from every player in game
     (2) Bag is empty and a single player runs out of tiles to play (both must be met)
-``
 
 Structure for Moves in Command Line:
 
