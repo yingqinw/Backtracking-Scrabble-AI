@@ -9,7 +9,7 @@ ScrabbleAI combines the classic game of scrabble with intelligent decision-makin
     (1) Consecitve choices to pass from every player in game
     (2) Bag is empty and a single player runs out of tiles to play (both must be met)
 
-Structure for Moves in Command Line:
+**Structure for Moves in Command Line:**
 
 (1) Pass
 
@@ -45,7 +45,7 @@ Structure for Moves in Command Line:
 
             ex: place - 8 8 d?og
                 (places word dog down, takes 'd','?', and 'g' from player hand and uses the ? as 'o')
-To Run Game:
+**To Run Game:**
 
 	(1) download ScrabbleAI folder from github
 	(2) in command line, navigate to downloaded folder
@@ -81,5 +81,7 @@ Notes on Files:
 	.h and .cpp files are stored in src folder
 	after compiling, .o files are created stored in created BIN folder
 Enjoy the Game, and good luck against the AIs
+
+**User Interface**
 
 ![GitHub Logo](https://i.ibb.co/Ry6hykn/img-0747-orig.png)
