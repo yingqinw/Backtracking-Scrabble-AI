@@ -54,7 +54,8 @@ ScrabbleAI combines the classic game of scrabble with intelligent decision-makin
         - make or make scrabble
         - ./scrabble config.txt
 	(4) see below for initialization of game
-Initializing the Game:
+
+**Initializing the Game:**
 
 	# of Players:
 	-------------
@@ -76,11 +77,12 @@ Initializing the Game:
         
 			- this player will play the word that maximizes the total increase in score
 			- if no valid move is found, the player will default to a Pass for that turn
-Notes on Files:
+**Notes on Files:**
 
 	.h and .cpp files are stored in src folder
 	after compiling, .o files are created stored in created BIN folder
-Enjoy the Game, and good luck against the AIs
+
+**Enjoy the Game, and good luck against the AIs!**
 
 **User Interface**
 
