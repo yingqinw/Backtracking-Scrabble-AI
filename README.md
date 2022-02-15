@@ -85,4 +85,5 @@ ScrabbleAI combines the classic game of scrabble with intelligent decision-makin
 **User Interface:**
 
 ![GitHub Logo](https://i.ibb.co/Ry6hykn/img-0747-orig.png)
+
 **ENJOY THE GAME, AND GOOD LUCK AGAINST THE AI!**
