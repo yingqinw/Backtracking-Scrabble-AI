@@ -82,8 +82,8 @@ ScrabbleAI combines the classic game of scrabble with intelligent decision-makin
 	.h and .cpp files are stored in src folder
 	after compiling, .o files are created stored in created BIN folder
 
-# Enjoy the Game, and good luck against the AIs!
-
 **User Interface**
 
 ![GitHub Logo](https://i.ibb.co/Ry6hykn/img-0747-orig.png)
+
+**Enjoy the Game, and good luck against the AIs!**
