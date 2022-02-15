@@ -4,9 +4,7 @@
 
 ScrabbleAI combines the classic game of scrabble with intelligent decision-making computer players. The game is configured to play on a standard 15 x 15 scrabble board with a standard English Dictionary. AI decision are made using recursive backtracking and a Trie of all legal words (for efficiency purposes). After each valid player move, the updated board and score are printed to the window, and the next human player is prompted to play. If no human players are used, AI's will continuously move until the game is concluded. On each turn, players can either pass, exchange, or place.
 
-**Basic Information**
-
-End Game Conditions:
+**End Game Conditions**
 
     (1) Consecitve choices to pass from every player in game
     (2) Bag is empty and a single player runs out of tiles to play (both must be met)
